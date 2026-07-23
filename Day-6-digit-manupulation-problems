@@ -1,0 +1,152 @@
+// sum of digits
+
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int sum = 0;
+
+//         while (num > 0) {
+//             sum = sum + num % 10;
+//             num = num / 10;
+//         }
+
+//         System.out.println(sum);
+//     }
+// }
+// //Reverse a Number
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int rev = 0;
+
+//         while (num > 0) {
+//             int digit = num % 10;
+//             rev = rev * 10 + digit;
+//             num = num / 10;
+//         }
+
+//         System.out.println(rev);
+//     }
+// }
+// //palindrome Number
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int temp = num;
+//         int rev = 0;
+
+//         while (num > 0) {
+//             int digit = num % 10;
+//             rev = rev * 10 + digit;
+//             num = num / 10;
+//         }
+
+//         if (temp == rev)
+//             System.out.println("Palindrome");
+//         else
+//             System.out.println("Not Palindrome");
+//     }
+// }
+// //Armstong Number
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int temp = num;
+//         int sum = 0;
+
+//         while (num > 0) {
+//             int digit = num % 10;
+//             sum = sum + digit * digit * digit;
+//             num = num / 10;
+//         }
+
+//         if (sum == temp)
+//             System.out.println("Armstrong Number");
+//         else
+//             System.out.println("Not Armstrong");
+//     }
+// }
+// //product of digits
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int product = 1;
+
+//         while (num > 0) {
+//             product = product * (num % 10);
+//             num = num / 10;
+//         }
+
+//         System.out.println(product);
+//     }
+// }
+// // even and odd digit count
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int even = 0, odd = 0;
+
+//         while (num > 0) {
+//             int digit = num % 10;
+
+//             if (digit % 2 == 0)
+//                 even++;
+//             else
+//                 odd++;
+
+//             num = num / 10;
+//         }
+
+//         System.out.println("Even Digits = " + even);
+//         System.out.println("Odd Digits = " + odd);
+//     }
+// }
+// // sum of even or odd digit count
+// import java.util.Scanner;
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int num = sc.nextInt();
+//         int evenSum = 0, oddSum = 0;
+
+//         while (num > 0) {
+//             int digit = num % 10;
+
+//             if (digit % 2 == 0)
+//                 evenSum += digit;
+//             else
+//                 oddSum += digit;
+
+//             num = num / 10;
+//         }
+
+//         System.out.println("Even Sum = " + evenSum);
+//         System.out.println("Odd Sum = " + oddSum);
+//     }
+// }
